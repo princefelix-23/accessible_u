@@ -64,15 +64,14 @@ p {
  *
  */
 a {
-  color: #777777;
-	text-decoration: none;
+  color: green;
+	text-decoration: underline;
 }
 /*
  * Provide additional visual cues to mouse users only
  *
  */
 a:hover {
-  color:#666666;
   text-decoration: none;
 }
 
@@ -80,7 +79,11 @@ a:hover {
  * Overrides browsers' visible focus indicator
  *
  */
-a:hover, a:focus, input:focus {
+/* a:hover, a:focus, input:focus {
   outline: none;
   border-color: transparent;
+} */
+
+:focus {
+  outline: 3px solid rgba(23, 171, 23, 0.8) !important;
 }

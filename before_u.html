@@ -248,16 +248,16 @@
                   <div id="error"></div>
 
                   <div class="required form-group">
-                    Name:
-                    <input type="text" name="name" class="form-control" />
+                    <label for="name">Name: *</label>
+                    <input id="name" type="text" name="name" class="form-control" autocomplete="name" required/>
                   </div>
                   <div class="required form-group">
-                    Email:
-                    <input type="text" name="email" class="form-control" />
+                    <label for="email">Email: *</label>
+                    <input id="email" type="email" name="email" class="form-control" autocomplete="email" required/>
                   </div>
                   <div class="form-group">
-                    Country:
-                    <input type="text" name="country" class="form-control" />
+                    <label for="country">Country:</label>
+                    <input type="text" name="country" id="country" class="form-control" autocomplete="country-name"/>
                   </div>
                   <div class="form-group">
                     <div>Desired major(s):</div>
